@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+           
+
+        /* Define the sections */
+        .section {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 24px;
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        /* Define background images for each section */
+        #section1 {
+            background-image: url('IDLY.jpg');
+            height:1000px;
+            width:100%;
+        }
+        #section2 {
+            background-image: url('POORI.jpg');
+            height:1000px;
+            width:100%;
+        }
+
+        #section3 {
+            background-image: url('milk-powder-gulab-jamuns.jpg');
+            height:1000px;
+            width:100%;
+        }
+
+        /* Add some padding for text readability */
+        .section-content {
+            padding: 40px;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="section1" class="section">
+        <div class="section-content">
+            <h1>Menu  1</h1>
+            <p> IDLY with SAMBAR</p>
+        </div>
+    </div>
+    <div id="section2" class="section">
+        <div class="section-content">
+            <h1>Menu 2</h1>
+            <p> POORI masala.</p>
+        </div>
+    </div>
+    <div id="section3" class="section">
+        <div class="section-content">
+            <h1>Menu 3</h1>
+            <p>GULAB JAMUN.</p>
+        </div>
+    </div>
+</body>
+</html>
